@@ -1,0 +1,13 @@
+[package]
+name = "monitoring_sender"
+version = "0.0.1"
+edition = "2021"
+authors = ["volki9000"]
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/volki9000"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nih_plug = { path = "../../", features = ["assert_process_allocs"] }
